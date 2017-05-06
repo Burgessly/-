@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LYTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024
+                                                         diskCapacity:20 * 1024 * 1024
+                                                             diskPath:nil];
+    //内存4M，硬盘20M
+    [NSURLCache setSharedURLCache:URLCache];
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    LYTabBarController * tabcon = [[LYTabBarController alloc]init];
+    //这样设置不了状态栏的颜色
+    //    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    self.window.rootViewController = tabcon;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

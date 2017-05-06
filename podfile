@@ -1,0 +1,9 @@
+def pods
+  pod 'AFNetworking'
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+end
+target '音伴尔家听宝' do
+  pods
+end

@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24E2A67E1E9777BC00266338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A67D1E9777BC00266338 /* main.m */; };
-		24E2A6811E9777BC00266338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A6801E9777BC00266338 /* AppDelegate.m */; };
-		24E2A6841E9777BC00266338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A6831E9777BC00266338 /* ViewController.m */; };
-		24E2A6871E9777BC00266338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E2A6851E9777BC00266338 /* Main.storyboard */; };
-		24E2A6891E9777BC00266338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E2A6881E9777BC00266338 /* Assets.xcassets */; };
-		24E2A68C1E9777BC00266338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E2A68A1E9777BC00266338 /* LaunchScreen.storyboard */; };
+		24189CD11EBD92090044E9E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24189CD01EBD92090044E9E3 /* Images.xcassets */; };
+		24ABCB361EBC7CA400C924B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAEC1EBC7CA400C924B1 /* AppDelegate.m */; };
+		24ABCB371EBC7CA400C924B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAED1EBC7CA400C924B1 /* Assets.xcassets */; };
+		24ABCB381EBC7CA400C924B1 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAEE1EBC7CA400C924B1 /* Base.lproj */; };
+		24ABCB391EBC7CA400C924B1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAEF1EBC7CA400C924B1 /* Info.plist */; };
+		24ABCB3A1EBC7CA400C924B1 /* LYCatListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAF11EBC7CA400C924B1 /* LYCatListModel.m */; };
+		24ABCB3B1EBC7CA400C924B1 /* LYcellview.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAF31EBC7CA400C924B1 /* LYcellview.m */; };
+		24ABCB3C1EBC7CA400C924B1 /* LYcellview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAF41EBC7CA400C924B1 /* LYcellview.xib */; };
+		24ABCB3D1EBC7CA400C924B1 /* LYchatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAF61EBC7CA400C924B1 /* LYchatViewController.m */; };
+		24ABCB3E1EBC7CA400C924B1 /* LYcloudsclassview.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAF81EBC7CA400C924B1 /* LYcloudsclassview.m */; };
+		24ABCB3F1EBC7CA400C924B1 /* LYcloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAFA1EBC7CA400C924B1 /* LYcloudTableViewController.m */; };
+		24ABCB401EBC7CA400C924B1 /* LYcloudTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAFB1EBC7CA400C924B1 /* LYcloudTableViewController.xib */; };
+		24ABCB411EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAFD1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m */; };
+		24ABCB421EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAFE1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib */; };
+		24ABCB431EBC7CA400C924B1 /* LYCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB001EBC7CA400C924B1 /* LYCollectionCell.m */; };
+		24ABCB441EBC7CA400C924B1 /* LYCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB011EBC7CA400C924B1 /* LYCollectionCell.xib */; };
+		24ABCB451EBC7CA400C924B1 /* LYcourseview.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB031EBC7CA400C924B1 /* LYcourseview.m */; };
+		24ABCB461EBC7CA400C924B1 /* LYcourseview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB041EBC7CA400C924B1 /* LYcourseview.xib */; };
+		24ABCB471EBC7CA400C924B1 /* LYdevise.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB061EBC7CA400C924B1 /* LYdevise.m */; };
+		24ABCB481EBC7CA400C924B1 /* LYdevise.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB071EBC7CA400C924B1 /* LYdevise.xib */; };
+		24ABCB491EBC7CA400C924B1 /* LYdownCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB091EBC7CA400C924B1 /* LYdownCellView.m */; };
+		24ABCB4A1EBC7CA400C924B1 /* LYdownCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB0A1EBC7CA400C924B1 /* LYdownCellView.xib */; };
+		24ABCB4B1EBC7CA400C924B1 /* LYDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB0B1EBC7CA400C924B1 /* LYDownView.xib */; };
+		24ABCB4C1EBC7CA400C924B1 /* LYFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB0D1EBC7CA400C924B1 /* LYFindViewController.m */; };
+		24ABCB4D1EBC7CA400C924B1 /* LYheadTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB0E1EBC7CA400C924B1 /* LYheadTableView.xib */; };
+		24ABCB4E1EBC7CA400C924B1 /* LYmainPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB101EBC7CA400C924B1 /* LYmainPageModel.m */; };
+		24ABCB4F1EBC7CA400C924B1 /* LYmineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB121EBC7CA400C924B1 /* LYmineView.m */; };
+		24ABCB501EBC7CA400C924B1 /* LYmineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB141EBC7CA400C924B1 /* LYmineViewController.m */; };
+		24ABCB511EBC7CA400C924B1 /* LYMusicBtnVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB161EBC7CA400C924B1 /* LYMusicBtnVc.m */; };
+		24ABCB521EBC7CA400C924B1 /* LYMusicBtnVCSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB181EBC7CA400C924B1 /* LYMusicBtnVCSingleton.m */; };
+		24ABCB531EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB1A1EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.m */; };
+		24ABCB541EBC7CA400C924B1 /* LYmusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB1C1EBC7CA400C924B1 /* LYmusicCell.m */; };
+		24ABCB551EBC7CA400C924B1 /* LYmusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB1D1EBC7CA400C924B1 /* LYmusicCell.xib */; };
+		24ABCB561EBC7CA400C924B1 /* LYmusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB1F1EBC7CA400C924B1 /* LYmusicViewController.m */; };
+		24ABCB571EBC7CA400C924B1 /* LYnavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB211EBC7CA400C924B1 /* LYnavigationController.m */; };
+		24ABCB581EBC7CA400C924B1 /* LYPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB231EBC7CA400C924B1 /* LYPageView.m */; };
+		24ABCB591EBC7CA400C924B1 /* LYPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB241EBC7CA400C924B1 /* LYPageView.xib */; };
+		24ABCB5A1EBC7CA400C924B1 /* LYshebeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB261EBC7CA400C924B1 /* LYshebeiViewController.m */; };
+		24ABCB5B1EBC7CA400C924B1 /* LYtabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB281EBC7CA400C924B1 /* LYtabBar.m */; };
+		24ABCB5C1EBC7CA400C924B1 /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB2A1EBC7CA400C924B1 /* LYTabBarController.m */; };
+		24ABCB5D1EBC7CA400C924B1 /* LYTabbarHeadbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB2C1EBC7CA400C924B1 /* LYTabbarHeadbutton.m */; };
+		24ABCB5E1EBC7CA400C924B1 /* LYtabelview.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB2E1EBC7CA400C924B1 /* LYtabelview.m */; };
+		24ABCB5F1EBC7CA400C924B1 /* LYtabelview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB2F1EBC7CA400C924B1 /* LYtabelview.xib */; };
+		24ABCB601EBC7CA400C924B1 /* LYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB311EBC7CA400C924B1 /* LYTableViewController.m */; };
+		24ABCB611EBC7CA400C924B1 /* LYVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB331EBC7CA400C924B1 /* LYVerticalButton.m */; };
+		24ABCB621EBC7CA400C924B1 /* LYView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCB341EBC7CA400C924B1 /* LYView.xib */; };
+		24ABCB631EBC7CA400C924B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB351EBC7CA400C924B1 /* main.m */; };
 		24E2A6971E9777BC00266338 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A6961E9777BC00266338 /* ______Tests.m */; };
 		24E2A6A21E9777BC00266338 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E2A6A11E9777BC00266338 /* ______UITests.m */; };
+		7E7FBA6C4E1403E4D65A7393 /* libPods-音伴尔家听宝.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE56702358BD3512CE66184 /* libPods-音伴尔家听宝.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +77,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FE56702358BD3512CE66184 /* libPods-音伴尔家听宝.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音伴尔家听宝.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24189CD01EBD92090044E9E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2478632A1EAB691A00073DF5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		24ABCAEB1EBC7CA400C924B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24ABCAEC1EBC7CA400C924B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24ABCAED1EBC7CA400C924B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24ABCAEE1EBC7CA400C924B1 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		24ABCAEF1EBC7CA400C924B1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24ABCAF01EBC7CA400C924B1 /* LYCatListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCatListModel.h; sourceTree = "<group>"; };
+		24ABCAF11EBC7CA400C924B1 /* LYCatListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCatListModel.m; sourceTree = "<group>"; };
+		24ABCAF21EBC7CA400C924B1 /* LYcellview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYcellview.h; sourceTree = "<group>"; };
+		24ABCAF31EBC7CA400C924B1 /* LYcellview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYcellview.m; sourceTree = "<group>"; };
+		24ABCAF41EBC7CA400C924B1 /* LYcellview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYcellview.xib; sourceTree = "<group>"; };
+		24ABCAF51EBC7CA400C924B1 /* LYchatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYchatViewController.h; sourceTree = "<group>"; };
+		24ABCAF61EBC7CA400C924B1 /* LYchatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYchatViewController.m; sourceTree = "<group>"; };
+		24ABCAF71EBC7CA400C924B1 /* LYcloudsclassview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYcloudsclassview.h; sourceTree = "<group>"; };
+		24ABCAF81EBC7CA400C924B1 /* LYcloudsclassview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYcloudsclassview.m; sourceTree = "<group>"; };
+		24ABCAF91EBC7CA400C924B1 /* LYcloudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYcloudTableViewController.h; sourceTree = "<group>"; };
+		24ABCAFA1EBC7CA400C924B1 /* LYcloudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYcloudTableViewController.m; sourceTree = "<group>"; };
+		24ABCAFB1EBC7CA400C924B1 /* LYcloudTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYcloudTableViewController.xib; sourceTree = "<group>"; };
+		24ABCAFC1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCollectionviewOnTableviewCell.h; sourceTree = "<group>"; };
+		24ABCAFD1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCollectionviewOnTableviewCell.m; sourceTree = "<group>"; };
+		24ABCAFE1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCollectionviewOnTableviewCell.xib; sourceTree = "<group>"; };
+		24ABCAFF1EBC7CA400C924B1 /* LYCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCollectionCell.h; sourceTree = "<group>"; };
+		24ABCB001EBC7CA400C924B1 /* LYCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCollectionCell.m; sourceTree = "<group>"; };
+		24ABCB011EBC7CA400C924B1 /* LYCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCollectionCell.xib; sourceTree = "<group>"; };
+		24ABCB021EBC7CA400C924B1 /* LYcourseview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYcourseview.h; sourceTree = "<group>"; };
+		24ABCB031EBC7CA400C924B1 /* LYcourseview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYcourseview.m; sourceTree = "<group>"; };
+		24ABCB041EBC7CA400C924B1 /* LYcourseview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYcourseview.xib; sourceTree = "<group>"; };
+		24ABCB051EBC7CA400C924B1 /* LYdevise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYdevise.h; sourceTree = "<group>"; };
+		24ABCB061EBC7CA400C924B1 /* LYdevise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYdevise.m; sourceTree = "<group>"; };
+		24ABCB071EBC7CA400C924B1 /* LYdevise.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYdevise.xib; sourceTree = "<group>"; };
+		24ABCB081EBC7CA400C924B1 /* LYdownCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYdownCellView.h; sourceTree = "<group>"; };
+		24ABCB091EBC7CA400C924B1 /* LYdownCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYdownCellView.m; sourceTree = "<group>"; };
+		24ABCB0A1EBC7CA400C924B1 /* LYdownCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYdownCellView.xib; sourceTree = "<group>"; };
+		24ABCB0B1EBC7CA400C924B1 /* LYDownView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYDownView.xib; sourceTree = "<group>"; };
+		24ABCB0C1EBC7CA400C924B1 /* LYFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFindViewController.h; sourceTree = "<group>"; };
+		24ABCB0D1EBC7CA400C924B1 /* LYFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFindViewController.m; sourceTree = "<group>"; };
+		24ABCB0E1EBC7CA400C924B1 /* LYheadTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYheadTableView.xib; sourceTree = "<group>"; };
+		24ABCB0F1EBC7CA400C924B1 /* LYmainPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYmainPageModel.h; sourceTree = "<group>"; };
+		24ABCB101EBC7CA400C924B1 /* LYmainPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYmainPageModel.m; sourceTree = "<group>"; };
+		24ABCB111EBC7CA400C924B1 /* LYmineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYmineView.h; sourceTree = "<group>"; };
+		24ABCB121EBC7CA400C924B1 /* LYmineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYmineView.m; sourceTree = "<group>"; };
+		24ABCB131EBC7CA400C924B1 /* LYmineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYmineViewController.h; sourceTree = "<group>"; };
+		24ABCB141EBC7CA400C924B1 /* LYmineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYmineViewController.m; sourceTree = "<group>"; };
+		24ABCB151EBC7CA400C924B1 /* LYMusicBtnVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMusicBtnVc.h; sourceTree = "<group>"; };
+		24ABCB161EBC7CA400C924B1 /* LYMusicBtnVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMusicBtnVc.m; sourceTree = "<group>"; };
+		24ABCB171EBC7CA400C924B1 /* LYMusicBtnVCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMusicBtnVCSingleton.h; sourceTree = "<group>"; };
+		24ABCB181EBC7CA400C924B1 /* LYMusicBtnVCSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMusicBtnVCSingleton.m; sourceTree = "<group>"; };
+		24ABCB191EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMusicBtnWindowSingleton.h; sourceTree = "<group>"; };
+		24ABCB1A1EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMusicBtnWindowSingleton.m; sourceTree = "<group>"; };
+		24ABCB1B1EBC7CA400C924B1 /* LYmusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYmusicCell.h; sourceTree = "<group>"; };
+		24ABCB1C1EBC7CA400C924B1 /* LYmusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYmusicCell.m; sourceTree = "<group>"; };
+		24ABCB1D1EBC7CA400C924B1 /* LYmusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYmusicCell.xib; sourceTree = "<group>"; };
+		24ABCB1E1EBC7CA400C924B1 /* LYmusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYmusicViewController.h; sourceTree = "<group>"; };
+		24ABCB1F1EBC7CA400C924B1 /* LYmusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYmusicViewController.m; sourceTree = "<group>"; };
+		24ABCB201EBC7CA400C924B1 /* LYnavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYnavigationController.h; sourceTree = "<group>"; };
+		24ABCB211EBC7CA400C924B1 /* LYnavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYnavigationController.m; sourceTree = "<group>"; };
+		24ABCB221EBC7CA400C924B1 /* LYPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPageView.h; sourceTree = "<group>"; };
+		24ABCB231EBC7CA400C924B1 /* LYPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPageView.m; sourceTree = "<group>"; };
+		24ABCB241EBC7CA400C924B1 /* LYPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYPageView.xib; sourceTree = "<group>"; };
+		24ABCB251EBC7CA400C924B1 /* LYshebeiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYshebeiViewController.h; sourceTree = "<group>"; };
+		24ABCB261EBC7CA400C924B1 /* LYshebeiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYshebeiViewController.m; sourceTree = "<group>"; };
+		24ABCB271EBC7CA400C924B1 /* LYtabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYtabBar.h; sourceTree = "<group>"; };
+		24ABCB281EBC7CA400C924B1 /* LYtabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYtabBar.m; sourceTree = "<group>"; };
+		24ABCB291EBC7CA400C924B1 /* LYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBarController.h; sourceTree = "<group>"; };
+		24ABCB2A1EBC7CA400C924B1 /* LYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBarController.m; sourceTree = "<group>"; };
+		24ABCB2B1EBC7CA400C924B1 /* LYTabbarHeadbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabbarHeadbutton.h; sourceTree = "<group>"; };
+		24ABCB2C1EBC7CA400C924B1 /* LYTabbarHeadbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabbarHeadbutton.m; sourceTree = "<group>"; };
+		24ABCB2D1EBC7CA400C924B1 /* LYtabelview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYtabelview.h; sourceTree = "<group>"; };
+		24ABCB2E1EBC7CA400C924B1 /* LYtabelview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYtabelview.m; sourceTree = "<group>"; };
+		24ABCB2F1EBC7CA400C924B1 /* LYtabelview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYtabelview.xib; sourceTree = "<group>"; };
+		24ABCB301EBC7CA400C924B1 /* LYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTableViewController.h; sourceTree = "<group>"; };
+		24ABCB311EBC7CA400C924B1 /* LYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTableViewController.m; sourceTree = "<group>"; };
+		24ABCB321EBC7CA400C924B1 /* LYVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYVerticalButton.h; sourceTree = "<group>"; };
+		24ABCB331EBC7CA400C924B1 /* LYVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYVerticalButton.m; sourceTree = "<group>"; };
+		24ABCB341EBC7CA400C924B1 /* LYView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYView.xib; sourceTree = "<group>"; };
+		24ABCB351EBC7CA400C924B1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24E2A6791E9777BC00266338 /* 音伴尔家听宝.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音伴尔家听宝.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24E2A67D1E9777BC00266338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24E2A67F1E9777BC00266338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		24E2A6801E9777BC00266338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24E2A6821E9777BC00266338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24E2A6831E9777BC00266338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24E2A6861E9777BC00266338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24E2A6881E9777BC00266338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24E2A68B1E9777BC00266338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		24E2A68D1E9777BC00266338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24E2A6921E9777BC00266338 /* 音伴尔家听宝Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音伴尔家听宝Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2A6961E9777BC00266338 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
 		24E2A6981E9777BC00266338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24E2A69D1E9777BC00266338 /* 音伴尔家听宝UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音伴尔家听宝UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2A6A11E9777BC00266338 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		24E2A6A31E9777BC00266338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450DFC435E4FAB106C5BB562 /* Pods-音伴尔家听宝.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音伴尔家听宝.release.xcconfig"; path = "Pods/Target Support Files/Pods-音伴尔家听宝/Pods-音伴尔家听宝.release.xcconfig"; sourceTree = "<group>"; };
+		61D1E02E5F0D68682F5D814F /* Pods-音伴尔家听宝.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音伴尔家听宝.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音伴尔家听宝/Pods-音伴尔家听宝.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7FBA6C4E1403E4D65A7393 /* libPods-音伴尔家听宝.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +192,488 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24189CC91EBD83F60044E9E3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		24189CCA1EBD84060044E9E3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		24189CCB1EBD84130044E9E3 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		24189CCC1EBD84220044E9E3 /* Const（常量） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Const（常量）";
+			sourceTree = "<group>";
+		};
+		24189CCD1EBD84380044E9E3 /* Macros（宏） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Macros（宏）";
+			sourceTree = "<group>";
+		};
+		24189CCE1EBD844E0044E9E3 /* Category（分类） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Category（分类）";
+			sourceTree = "<group>";
+		};
+		24189CCF1EBD845A0044E9E3 /* Singleton（单例） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB151EBC7CA400C924B1 /* LYMusicBtnVc.h */,
+				24ABCB161EBC7CA400C924B1 /* LYMusicBtnVc.m */,
+				24ABCB171EBC7CA400C924B1 /* LYMusicBtnVCSingleton.h */,
+				24ABCB181EBC7CA400C924B1 /* LYMusicBtnVCSingleton.m */,
+				24ABCB191EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.h */,
+				24ABCB1A1EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.m */,
+			);
+			name = "Singleton（单例）";
+			sourceTree = "<group>";
+		};
+		24ABCB641EBC7D6A00C924B1 /* Device（设备） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB7C1EBC81C500C924B1 /* Controller */,
+				24ABCB7D1EBC81CC00C924B1 /* View */,
+				24ABCB7E1EBC81D100C924B1 /* Model */,
+				24ABCB7F1EBC81DF00C924B1 /* Other */,
+			);
+			name = "Device（设备）";
+			sourceTree = "<group>";
+		};
+		24ABCB651EBC7D8500C924B1 /* Expand（扩展） */ = {
+			isa = PBXGroup;
+			children = (
+				24189CCE1EBD844E0044E9E3 /* Category（分类） */,
+				24189CCF1EBD845A0044E9E3 /* Singleton（单例） */,
+				24189CCD1EBD84380044E9E3 /* Macros（宏） */,
+				24189CCC1EBD84220044E9E3 /* Const（常量） */,
+				24189CCB1EBD84130044E9E3 /* Database */,
+				24189CCA1EBD84060044E9E3 /* Network */,
+				24189CC91EBD83F60044E9E3 /* Tool */,
+			);
+			name = "Expand（扩展）";
+			sourceTree = "<group>";
+		};
+		24ABCB661EBC7D9F00C924B1 /* FailedAndReflective */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCAF21EBC7CA400C924B1 /* LYcellview.h */,
+				24ABCAF31EBC7CA400C924B1 /* LYcellview.m */,
+				24ABCAF41EBC7CA400C924B1 /* LYcellview.xib */,
+				24ABCAF71EBC7CA400C924B1 /* LYcloudsclassview.h */,
+				24ABCAF81EBC7CA400C924B1 /* LYcloudsclassview.m */,
+			);
+			name = FailedAndReflective;
+			sourceTree = "<group>";
+		};
+		24ABCB671EBC7DCD00C924B1 /* Find（发现） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB701EBC7F0F00C924B1 /* MainController */,
+				24ABCB6E1EBC7ED200C924B1 /* MainPage（首页） */,
+				24ABCB6D1EBC7EA800C924B1 /* CloudClassroom（云课堂） */,
+				24ABCB6F1EBC7EE100C924B1 /* RegularCourse（定时课程） */,
+			);
+			name = "Find（发现）";
+			sourceTree = "<group>";
+		};
+		24ABCB681EBC7DD700C924B1 /* Information（消息） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB841EBC828D00C924B1 /* Controller */,
+				24ABCB851EBC829A00C924B1 /* View */,
+				24ABCB861EBC829F00C924B1 /* Model */,
+				24ABCB871EBC82A400C924B1 /* Other */,
+			);
+			name = "Information（消息）";
+			sourceTree = "<group>";
+		};
+		24ABCB691EBC7DEF00C924B1 /* Music（播放） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB801EBC821C00C924B1 /* Controller */,
+				24ABCB811EBC822B00C924B1 /* View */,
+				24ABCB821EBC823500C924B1 /* Model */,
+				24ABCB831EBC823B00C924B1 /* Other */,
+			);
+			name = "Music（播放）";
+			sourceTree = "<group>";
+		};
+		24ABCB6A1EBC7DFF00C924B1 /* Other（其他） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB921EBC839C00C924B1 /* Public */,
+				24ABCB911EBC838400C924B1 /* Navigation */,
+				24ABCB901EBC837800C924B1 /* TabBar */,
+				24ABCB8F1EBC837000C924B1 /* Login */,
+				24ABCB8E1EBC836400C924B1 /* Setting */,
+				24ABCB8D1EBC832A00C924B1 /* Release（发布器） */,
+				24ABCB8C1EBC831A00C924B1 /* Other */,
+			);
+			name = "Other（其他）";
+			sourceTree = "<group>";
+		};
+		24ABCB6B1EBC7E1500C924B1 /* Resource（资源） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCAEB1EBC7CA400C924B1 /* AppDelegate.h */,
+				24ABCAEC1EBC7CA400C924B1 /* AppDelegate.m */,
+				24ABCAEF1EBC7CA400C924B1 /* Info.plist */,
+				24ABCB351EBC7CA400C924B1 /* main.m */,
+				24ABCAED1EBC7CA400C924B1 /* Assets.xcassets */,
+				24ABCAEE1EBC7CA400C924B1 /* Base.lproj */,
+			);
+			name = "Resource（资源）";
+			sourceTree = "<group>";
+		};
+		24ABCB6C1EBC7E3100C924B1 /* User（用户） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB881EBC82CF00C924B1 /* Controller */,
+				24ABCB891EBC82D400C924B1 /* View */,
+				24ABCB8B1EBC82E800C924B1 /* Model */,
+				24ABCB8A1EBC82DE00C924B1 /* Other */,
+			);
+			name = "User（用户）";
+			sourceTree = "<group>";
+		};
+		24ABCB6D1EBC7EA800C924B1 /* CloudClassroom（云课堂） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB7B1EBC7FC000C924B1 /* Model */,
+				24ABCB7A1EBC7FBB00C924B1 /* View */,
+				24ABCB791EBC7FB400C924B1 /* Controller */,
+			);
+			name = "CloudClassroom（云课堂）";
+			sourceTree = "<group>";
+		};
+		24ABCB6E1EBC7ED200C924B1 /* MainPage（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB781EBC7FAF00C924B1 /* Model */,
+				24ABCB771EBC7FA500C924B1 /* View */,
+				24ABCB761EBC7F9E00C924B1 /* Controller */,
+			);
+			name = "MainPage（首页）";
+			sourceTree = "<group>";
+		};
+		24ABCB6F1EBC7EE100C924B1 /* RegularCourse（定时课程） */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB751EBC7F9800C924B1 /* View */,
+				24ABCB741EBC7F9200C924B1 /* Model */,
+				24ABCB731EBC7F8200C924B1 /* Controller */,
+			);
+			name = "RegularCourse（定时课程）";
+			sourceTree = "<group>";
+		};
+		24ABCB701EBC7F0F00C924B1 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB0C1EBC7CA400C924B1 /* LYFindViewController.h */,
+				24ABCB0D1EBC7CA400C924B1 /* LYFindViewController.m */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		24ABCB731EBC7F8200C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB741EBC7F9200C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB751EBC7F9800C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB021EBC7CA400C924B1 /* LYcourseview.h */,
+				24ABCB031EBC7CA400C924B1 /* LYcourseview.m */,
+				24ABCB041EBC7CA400C924B1 /* LYcourseview.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB761EBC7F9E00C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB0E1EBC7CA400C924B1 /* LYheadTableView.xib */,
+				24ABCB301EBC7CA400C924B1 /* LYTableViewController.h */,
+				24ABCB311EBC7CA400C924B1 /* LYTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB771EBC7FA500C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCAFC1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.h */,
+				24ABCAFD1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m */,
+				24ABCAFE1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib */,
+				24ABCB081EBC7CA400C924B1 /* LYdownCellView.h */,
+				24ABCB091EBC7CA400C924B1 /* LYdownCellView.m */,
+				24ABCB0A1EBC7CA400C924B1 /* LYdownCellView.xib */,
+				24ABCB221EBC7CA400C924B1 /* LYPageView.h */,
+				24ABCB231EBC7CA400C924B1 /* LYPageView.m */,
+				24ABCB241EBC7CA400C924B1 /* LYPageView.xib */,
+				24ABCB2B1EBC7CA400C924B1 /* LYTabbarHeadbutton.h */,
+				24ABCB2C1EBC7CA400C924B1 /* LYTabbarHeadbutton.m */,
+				24ABCB2D1EBC7CA400C924B1 /* LYtabelview.h */,
+				24ABCB2E1EBC7CA400C924B1 /* LYtabelview.m */,
+				24ABCB2F1EBC7CA400C924B1 /* LYtabelview.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB781EBC7FAF00C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB0F1EBC7CA400C924B1 /* LYmainPageModel.h */,
+				24ABCB101EBC7CA400C924B1 /* LYmainPageModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB791EBC7FB400C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCAF91EBC7CA400C924B1 /* LYcloudTableViewController.h */,
+				24ABCAFA1EBC7CA400C924B1 /* LYcloudTableViewController.m */,
+				24ABCAFB1EBC7CA400C924B1 /* LYcloudTableViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB7A1EBC7FBB00C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB7B1EBC7FC000C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCAF01EBC7CA400C924B1 /* LYCatListModel.h */,
+				24ABCAF11EBC7CA400C924B1 /* LYCatListModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB7C1EBC81C500C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB251EBC7CA400C924B1 /* LYshebeiViewController.h */,
+				24ABCB261EBC7CA400C924B1 /* LYshebeiViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB7D1EBC81CC00C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB051EBC7CA400C924B1 /* LYdevise.h */,
+				24ABCB061EBC7CA400C924B1 /* LYdevise.m */,
+				24ABCB071EBC7CA400C924B1 /* LYdevise.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB7E1EBC81D100C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB7F1EBC81DF00C924B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		24ABCB801EBC821C00C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB1E1EBC7CA400C924B1 /* LYmusicViewController.h */,
+				24ABCB1F1EBC7CA400C924B1 /* LYmusicViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB811EBC822B00C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB0B1EBC7CA400C924B1 /* LYDownView.xib */,
+				24ABCB1B1EBC7CA400C924B1 /* LYmusicCell.h */,
+				24ABCB1C1EBC7CA400C924B1 /* LYmusicCell.m */,
+				24ABCB1D1EBC7CA400C924B1 /* LYmusicCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB821EBC823500C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB831EBC823B00C924B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		24ABCB841EBC828D00C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCAF51EBC7CA400C924B1 /* LYchatViewController.h */,
+				24ABCAF61EBC7CA400C924B1 /* LYchatViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB851EBC829A00C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB861EBC829F00C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB871EBC82A400C924B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		24ABCB881EBC82CF00C924B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB131EBC7CA400C924B1 /* LYmineViewController.h */,
+				24ABCB141EBC7CA400C924B1 /* LYmineViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24ABCB891EBC82D400C924B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB111EBC7CA400C924B1 /* LYmineView.h */,
+				24ABCB121EBC7CA400C924B1 /* LYmineView.m */,
+				24ABCB341EBC7CA400C924B1 /* LYView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24ABCB8A1EBC82DE00C924B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		24ABCB8B1EBC82E800C924B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24ABCB8C1EBC831A00C924B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		24ABCB8D1EBC832A00C924B1 /* Release（发布器） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Release（发布器）";
+			sourceTree = "<group>";
+		};
+		24ABCB8E1EBC836400C924B1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		24ABCB8F1EBC837000C924B1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		24ABCB901EBC837800C924B1 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB271EBC7CA400C924B1 /* LYtabBar.h */,
+				24ABCB281EBC7CA400C924B1 /* LYtabBar.m */,
+				24ABCB291EBC7CA400C924B1 /* LYTabBarController.h */,
+				24ABCB2A1EBC7CA400C924B1 /* LYTabBarController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		24ABCB911EBC838400C924B1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB201EBC7CA400C924B1 /* LYnavigationController.h */,
+				24ABCB211EBC7CA400C924B1 /* LYnavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		24ABCB921EBC839C00C924B1 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				24ABCB321EBC7CA400C924B1 /* LYVerticalButton.h */,
+				24ABCB331EBC7CA400C924B1 /* LYVerticalButton.m */,
+				24ABCAFF1EBC7CA400C924B1 /* LYCollectionCell.h */,
+				24ABCB001EBC7CA400C924B1 /* LYCollectionCell.m */,
+				24ABCB011EBC7CA400C924B1 /* LYCollectionCell.xib */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
 		24E2A6701E9777BC00266338 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +681,8 @@
 				24E2A6951E9777BC00266338 /* 音伴尔家听宝Tests */,
 				24E2A6A01E9777BC00266338 /* 音伴尔家听宝UITests */,
 				24E2A67A1E9777BC00266338 /* Products */,
+				90694183FEBD40A59A9BC79F /* Pods */,
+				C8DD2660F663B9C28F7BB796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +699,16 @@
 		24E2A67B1E9777BC00266338 /* 音伴尔家听宝 */ = {
 			isa = PBXGroup;
 			children = (
-				24E2A67F1E9777BC00266338 /* AppDelegate.h */,
-				24E2A6801E9777BC00266338 /* AppDelegate.m */,
-				24E2A6821E9777BC00266338 /* ViewController.h */,
-				24E2A6831E9777BC00266338 /* ViewController.m */,
-				24E2A6851E9777BC00266338 /* Main.storyboard */,
-				24E2A6881E9777BC00266338 /* Assets.xcassets */,
-				24E2A68A1E9777BC00266338 /* LaunchScreen.storyboard */,
-				24E2A68D1E9777BC00266338 /* Info.plist */,
+				24ABCB671EBC7DCD00C924B1 /* Find（发现） */,
+				24ABCB641EBC7D6A00C924B1 /* Device（设备） */,
+				24ABCB691EBC7DEF00C924B1 /* Music（播放） */,
+				24ABCB681EBC7DD700C924B1 /* Information（消息） */,
+				24ABCB6C1EBC7E3100C924B1 /* User（用户） */,
+				24ABCB6A1EBC7DFF00C924B1 /* Other（其他） */,
+				24ABCB651EBC7D8500C924B1 /* Expand（扩展） */,
+				24ABCB6B1EBC7E1500C924B1 /* Resource（资源） */,
+				24ABCB661EBC7D9F00C924B1 /* FailedAndReflective */,
+				24189CD01EBD92090044E9E3 /* Images.xcassets */,
 				24E2A67C1E9777BC00266338 /* Supporting Files */,
 			);
 			path = "音伴尔家听宝";
@@ -117,7 +717,7 @@
 		24E2A67C1E9777BC00266338 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24E2A67D1E9777BC00266338 /* main.m */,
+				2478632A1EAB691A00073DF5 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +740,23 @@
 			path = "音伴尔家听宝UITests";
 			sourceTree = "<group>";
 		};
+		90694183FEBD40A59A9BC79F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61D1E02E5F0D68682F5D814F /* Pods-音伴尔家听宝.debug.xcconfig */,
+				450DFC435E4FAB106C5BB562 /* Pods-音伴尔家听宝.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8DD2660F663B9C28F7BB796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE56702358BD3512CE66184 /* libPods-音伴尔家听宝.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +764,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E2A6A61E9777BC00266338 /* Build configuration list for PBXNativeTarget "音伴尔家听宝" */;
 			buildPhases = (
+				E29A95C1C9D836F59B41E5AE /* [CP] Check Pods Manifest.lock */,
 				24E2A6751E9777BC00266338 /* Sources */,
 				24E2A6761E9777BC00266338 /* Frameworks */,
 				24E2A6771E9777BC00266338 /* Resources */,
+				4326890B4FE419CA7BC93FA5 /* [CP] Embed Pods Frameworks */,
+				8EB4E4417300DC76FFAD06EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +822,10 @@
 		24E2A6711E9777BC00266338 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LY;
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Burgess;
 				TargetAttributes = {
@@ -249,9 +873,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E2A68C1E9777BC00266338 /* LaunchScreen.storyboard in Resources */,
-				24E2A6891E9777BC00266338 /* Assets.xcassets in Resources */,
-				24E2A6871E9777BC00266338 /* Main.storyboard in Resources */,
+				24ABCB421EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib in Resources */,
+				24ABCB4B1EBC7CA400C924B1 /* LYDownView.xib in Resources */,
+				24ABCB4D1EBC7CA400C924B1 /* LYheadTableView.xib in Resources */,
+				24ABCB381EBC7CA400C924B1 /* Base.lproj in Resources */,
+				24ABCB461EBC7CA400C924B1 /* LYcourseview.xib in Resources */,
+				24ABCB4A1EBC7CA400C924B1 /* LYdownCellView.xib in Resources */,
+				24ABCB5F1EBC7CA400C924B1 /* LYtabelview.xib in Resources */,
+				24ABCB481EBC7CA400C924B1 /* LYdevise.xib in Resources */,
+				24ABCB371EBC7CA400C924B1 /* Assets.xcassets in Resources */,
+				24ABCB401EBC7CA400C924B1 /* LYcloudTableViewController.xib in Resources */,
+				24ABCB391EBC7CA400C924B1 /* Info.plist in Resources */,
+				24189CD11EBD92090044E9E3 /* Images.xcassets in Resources */,
+				24ABCB621EBC7CA400C924B1 /* LYView.xib in Resources */,
+				24ABCB3C1EBC7CA400C924B1 /* LYcellview.xib in Resources */,
+				24ABCB551EBC7CA400C924B1 /* LYmusicCell.xib in Resources */,
+				24ABCB591EBC7CA400C924B1 /* LYPageView.xib in Resources */,
+				24ABCB441EBC7CA400C924B1 /* LYCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +909,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4326890B4FE419CA7BC93FA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音伴尔家听宝/Pods-音伴尔家听宝-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB4E4417300DC76FFAD06EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音伴尔家听宝/Pods-音伴尔家听宝-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29A95C1C9D836F59B41E5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24E2A6751E9777BC00266338 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E2A6841E9777BC00266338 /* ViewController.m in Sources */,
-				24E2A6811E9777BC00266338 /* AppDelegate.m in Sources */,
-				24E2A67E1E9777BC00266338 /* main.m in Sources */,
+				24ABCB4E1EBC7CA400C924B1 /* LYmainPageModel.m in Sources */,
+				24ABCB541EBC7CA400C924B1 /* LYmusicCell.m in Sources */,
+				24ABCB361EBC7CA400C924B1 /* AppDelegate.m in Sources */,
+				24ABCB571EBC7CA400C924B1 /* LYnavigationController.m in Sources */,
+				24ABCB451EBC7CA400C924B1 /* LYcourseview.m in Sources */,
+				24ABCB5C1EBC7CA400C924B1 /* LYTabBarController.m in Sources */,
+				24ABCB5A1EBC7CA400C924B1 /* LYshebeiViewController.m in Sources */,
+				24ABCB5B1EBC7CA400C924B1 /* LYtabBar.m in Sources */,
+				24ABCB4C1EBC7CA400C924B1 /* LYFindViewController.m in Sources */,
+				24ABCB5E1EBC7CA400C924B1 /* LYtabelview.m in Sources */,
+				24ABCB631EBC7CA400C924B1 /* main.m in Sources */,
+				24ABCB431EBC7CA400C924B1 /* LYCollectionCell.m in Sources */,
+				24ABCB531EBC7CA400C924B1 /* LYMusicBtnWindowSingleton.m in Sources */,
+				24ABCB3D1EBC7CA400C924B1 /* LYchatViewController.m in Sources */,
+				24ABCB4F1EBC7CA400C924B1 /* LYmineView.m in Sources */,
+				24ABCB601EBC7CA400C924B1 /* LYTableViewController.m in Sources */,
+				24ABCB3F1EBC7CA400C924B1 /* LYcloudTableViewController.m in Sources */,
+				24ABCB3A1EBC7CA400C924B1 /* LYCatListModel.m in Sources */,
+				24ABCB561EBC7CA400C924B1 /* LYmusicViewController.m in Sources */,
+				24ABCB5D1EBC7CA400C924B1 /* LYTabbarHeadbutton.m in Sources */,
+				24ABCB471EBC7CA400C924B1 /* LYdevise.m in Sources */,
+				24ABCB3B1EBC7CA400C924B1 /* LYcellview.m in Sources */,
+				24ABCB491EBC7CA400C924B1 /* LYdownCellView.m in Sources */,
+				24ABCB511EBC7CA400C924B1 /* LYMusicBtnVc.m in Sources */,
+				24ABCB501EBC7CA400C924B1 /* LYmineViewController.m in Sources */,
+				24ABCB611EBC7CA400C924B1 /* LYVerticalButton.m in Sources */,
+				24ABCB581EBC7CA400C924B1 /* LYPageView.m in Sources */,
+				24ABCB411EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m in Sources */,
+				24ABCB3E1EBC7CA400C924B1 /* LYcloudsclassview.m in Sources */,
+				24ABCB521EBC7CA400C924B1 /* LYMusicBtnVCSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +1025,6 @@
 			targetProxy = 24E2A69E1E9777BC00266338 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		24E2A6851E9777BC00266338 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24E2A6861E9777BC00266338 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		24E2A68A1E9777BC00266338 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24E2A68B1E9777BC00266338 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		24E2A6A41E9777BC00266338 /* Debug */ = {
@@ -425,10 +1119,14 @@
 		};
 		24E2A6A71E9777BC00266338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D1E02E5F0D68682F5D814F /* Pods-音伴尔家听宝.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VSKX2CM7LT;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = "音伴尔家听宝/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yong.com.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +1135,14 @@
 		};
 		24E2A6A81E9777BC00266338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450DFC435E4FAB106C5BB562 /* Pods-音伴尔家听宝.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VSKX2CM7LT;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = "音伴尔家听宝/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yong.com.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +1218,7 @@
 				24E2A6A81E9777BC00266338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24E2A6A91E9777BC00266338 /* Build configuration list for PBXNativeTarget "音伴尔家听宝Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +1227,7 @@
 				24E2A6AB1E9777BC00266338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24E2A6AC1E9777BC00266338 /* Build configuration list for PBXNativeTarget "音伴尔家听宝UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +1236,7 @@
 				24E2A6AE1E9777BC00266338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
