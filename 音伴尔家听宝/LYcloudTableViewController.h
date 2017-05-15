@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LYcloudTableViewController : UITableViewController
+@property (strong , nonatomic) NSString * VcTitle;
 
 @end

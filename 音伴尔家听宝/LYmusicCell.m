@@ -9,10 +9,16 @@
 #import "LYmusicCell.h"
 
 @implementation LYmusicCell
-+(instancetype)initwhitcell{
-    LYmusicCell * cell = [[[NSBundle mainBundle]loadNibNamed:@"LYmusicCell" owner:NULL options:NULL]firstObject];
-    return cell;
+
+
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        self = [[[NSBundle mainBundle]loadNibNamed:NSStringFromClass([self class]) owner:self options:NULL]firstObject];
+    }
+    return self;
 }
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

@@ -308,6 +308,8 @@
     NSLog(@"%zd",indexPath.item);
 #warning     后面优化可以把这个控制器的初始化放在别的地方防止，多次点击多次初始化
     LYcloudTableViewController * viewss = [[LYcloudTableViewController alloc]init];
+    LYCollectionCell * cell = (LYCollectionCell *)[collectionView cellForItemAtIndexPath:indexPath];
+    viewss.VcTitle = cell.corseBtn.titleLabel.text;
     [self.navigationController pushViewController:viewss animated:YES];
 }
 

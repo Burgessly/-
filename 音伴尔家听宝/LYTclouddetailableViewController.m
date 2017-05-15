@@ -1,43 +1,36 @@
 //
-//  LYcloudTableViewController.m
+//  LYTclouddetailableViewController.m
 //  音伴尔家听宝
 //
-//  Created by Burgess on 2017/4/17.
+//  Created by Burgess on 2017/5/13.
 //  Copyright © 2017年 Burgess. All rights reserved.
 //
 
-#import "LYcloudTableViewController.h"
-#import "LYCloudtableviewcell.h"
 #import "LYTclouddetailableViewController.h"
+#import "LYCloudDetailTableViewCell.h"
+#import "LYHeadCloudDetailView.h"
 
-@interface LYcloudTableViewController ()
+@interface LYTclouddetailableViewController ()
 
 @end
 
-@implementation LYcloudTableViewController
-static NSString  * cellid = @"corselistcell";
-
+@implementation LYTclouddetailableViewController
+static NSString  * cellid = @"corsedetaillistcell";
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //  设置tableview的背景色
-    self.tableView.backgroundColor = LyBackgroundColor;
-    
-    //  注册一个LYCloudtableviewcell的给tableview
-    [self.tableView registerClass:[LYCloudtableviewcell class] forCellReuseIdentifier:cellid];
-    
-    //  设置控制器的标题的颜色
-    self.navigationItem.title = self.VcTitle;
-
-    
+    [self.tableView registerClass:[LYCloudDetailTableViewCell class] forCellReuseIdentifier:cellid];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
 }
 
-
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 #pragma mark - Table view data source
 
@@ -51,25 +44,27 @@ static NSString  * cellid = @"corselistcell";
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    LYCloudDetailTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellid forIndexPath:indexPath];
     
-    LYCloudtableviewcell *cell = [tableView dequeueReusableCellWithIdentifier:cellid];
-    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     // Configure the cell...
     
     return cell;
 }
-
-#pragma mark - Table view delegate
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+    if (section == 0) {
+        LYHeadCloudDetailView  * headview = [[LYHeadCloudDetailView alloc]init];
+        return headview;
+    }
+    return NULL;
+}
+#pragma mark - tableview delegate
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 219;
+}
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 106;
+    return 60;
 }
-
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    LYTclouddetailableViewController * clouddetailvc =[[LYTclouddetailableViewController alloc]init];
-    [self.navigationController pushViewController:clouddetailvc  animated:YES];
-}
-
-
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

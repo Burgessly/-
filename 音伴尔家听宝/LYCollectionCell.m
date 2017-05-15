@@ -17,6 +17,7 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         self = [[[NSBundle mainBundle]loadNibNamed:@"LYCollectionCell" owner:NULL options:NULL]firstObject];
+        self.corseBtn.titleLabel.numberOfLines = 0;
     }
     return self;
 }

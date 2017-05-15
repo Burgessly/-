@@ -109,21 +109,21 @@
 
 #pragma mark - 中间scrollerview上的tableview列表的数据源方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 40;
+    return 20;
 }
 
 // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
 // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    LYmusicCell *musicCell = [LYmusicCell initwhitcell];
+    LYmusicCell *musicCell = [tableView dequeueReusableCellWithIdentifier:@"musiccell"];
     musicCell.indicatorView.hidden = YES;
     musicCell.backgroundColor = [UIColor clearColor];
     musicCell.selectionStyle = UITableViewCellEditingStyleNone;
     return musicCell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 74;
+    return 60;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -197,6 +197,7 @@
     self.scrolltableview.dataSource = self;
     self.scrolltableview.delegate = self;
     self.scrolltableview.backgroundColor = [UIColor clearColor];
+    [self.scrolltableview registerClass:[LYmusicCell class] forCellReuseIdentifier:@"musiccell"];
     [self.ScrollView addSubview:self.scrolltableview];
     [self.view addSubview:self.ScrollView];
     

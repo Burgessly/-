@@ -35,6 +35,4 @@
  */
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 
-
-+(instancetype)initwhitcell;
 @end

@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24189CD11EBD92090044E9E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24189CD01EBD92090044E9E3 /* Images.xcassets */; };
+		241BD4301EC843F3006B4ED3 /* LYHeadCloudDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 241BD42F1EC843F3006B4ED3 /* LYHeadCloudDetailView.m */; };
+		241BD4321EC8441A006B4ED3 /* LYHeadCloudDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241BD4311EC8441A006B4ED3 /* LYHeadCloudDetailView.xib */; };
+		241BD4351EC84AA8006B4ED3 /* LYHorizontalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 241BD4341EC84AA8006B4ED3 /* LYHorizontalButton.m */; };
+		246C76241EC74B62009D5A6F /* LYTclouddetailableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246C76221EC74B62009D5A6F /* LYTclouddetailableViewController.m */; };
+		246C76251EC74B62009D5A6F /* LYTclouddetailableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246C76231EC74B62009D5A6F /* LYTclouddetailableViewController.xib */; };
+		246C76291EC74C08009D5A6F /* LYCloudDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 246C76271EC74C08009D5A6F /* LYCloudDetailTableViewCell.m */; };
+		246C762A1EC74C08009D5A6F /* LYCloudDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246C76281EC74C08009D5A6F /* LYCloudDetailTableViewCell.xib */; };
+		249228241EBEAFD900873488 /* LYCloudtableviewcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 249228221EBEAFD900873488 /* LYCloudtableviewcell.m */; };
+		249228251EBEAFD900873488 /* LYCloudtableviewcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249228231EBEAFD900873488 /* LYCloudtableviewcell.xib */; };
 		24ABCB361EBC7CA400C924B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAEC1EBC7CA400C924B1 /* AppDelegate.m */; };
 		24ABCB371EBC7CA400C924B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAED1EBC7CA400C924B1 /* Assets.xcassets */; };
 		24ABCB381EBC7CA400C924B1 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAEE1EBC7CA400C924B1 /* Base.lproj */; };
@@ -18,7 +26,6 @@
 		24ABCB3D1EBC7CA400C924B1 /* LYchatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAF61EBC7CA400C924B1 /* LYchatViewController.m */; };
 		24ABCB3E1EBC7CA400C924B1 /* LYcloudsclassview.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAF81EBC7CA400C924B1 /* LYcloudsclassview.m */; };
 		24ABCB3F1EBC7CA400C924B1 /* LYcloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAFA1EBC7CA400C924B1 /* LYcloudTableViewController.m */; };
-		24ABCB401EBC7CA400C924B1 /* LYcloudTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAFB1EBC7CA400C924B1 /* LYcloudTableViewController.xib */; };
 		24ABCB411EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCAFD1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m */; };
 		24ABCB421EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24ABCAFE1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib */; };
 		24ABCB431EBC7CA400C924B1 /* LYCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ABCB001EBC7CA400C924B1 /* LYCollectionCell.m */; };
@@ -78,8 +85,21 @@
 
 /* Begin PBXFileReference section */
 		0FE56702358BD3512CE66184 /* libPods-音伴尔家听宝.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音伴尔家听宝.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24189CD01EBD92090044E9E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		241BD42E1EC843F3006B4ED3 /* LYHeadCloudDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHeadCloudDetailView.h; sourceTree = "<group>"; };
+		241BD42F1EC843F3006B4ED3 /* LYHeadCloudDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHeadCloudDetailView.m; sourceTree = "<group>"; };
+		241BD4311EC8441A006B4ED3 /* LYHeadCloudDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYHeadCloudDetailView.xib; sourceTree = "<group>"; };
+		241BD4331EC84AA8006B4ED3 /* LYHorizontalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHorizontalButton.h; sourceTree = "<group>"; };
+		241BD4341EC84AA8006B4ED3 /* LYHorizontalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHorizontalButton.m; sourceTree = "<group>"; };
+		246C76211EC74B61009D5A6F /* LYTclouddetailableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTclouddetailableViewController.h; sourceTree = "<group>"; };
+		246C76221EC74B62009D5A6F /* LYTclouddetailableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTclouddetailableViewController.m; sourceTree = "<group>"; };
+		246C76231EC74B62009D5A6F /* LYTclouddetailableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYTclouddetailableViewController.xib; sourceTree = "<group>"; };
+		246C76261EC74C08009D5A6F /* LYCloudDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCloudDetailTableViewCell.h; sourceTree = "<group>"; };
+		246C76271EC74C08009D5A6F /* LYCloudDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCloudDetailTableViewCell.m; sourceTree = "<group>"; };
+		246C76281EC74C08009D5A6F /* LYCloudDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCloudDetailTableViewCell.xib; sourceTree = "<group>"; };
 		2478632A1EAB691A00073DF5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		249228211EBEAFD900873488 /* LYCloudtableviewcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCloudtableviewcell.h; sourceTree = "<group>"; };
+		249228221EBEAFD900873488 /* LYCloudtableviewcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCloudtableviewcell.m; sourceTree = "<group>"; };
+		249228231EBEAFD900873488 /* LYCloudtableviewcell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCloudtableviewcell.xib; sourceTree = "<group>"; };
 		24ABCAEB1EBC7CA400C924B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24ABCAEC1EBC7CA400C924B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24ABCAED1EBC7CA400C924B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,7 +116,6 @@
 		24ABCAF81EBC7CA400C924B1 /* LYcloudsclassview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYcloudsclassview.m; sourceTree = "<group>"; };
 		24ABCAF91EBC7CA400C924B1 /* LYcloudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYcloudTableViewController.h; sourceTree = "<group>"; };
 		24ABCAFA1EBC7CA400C924B1 /* LYcloudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYcloudTableViewController.m; sourceTree = "<group>"; };
-		24ABCAFB1EBC7CA400C924B1 /* LYcloudTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYcloudTableViewController.xib; sourceTree = "<group>"; };
 		24ABCAFC1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCollectionviewOnTableviewCell.h; sourceTree = "<group>"; };
 		24ABCAFD1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCollectionviewOnTableviewCell.m; sourceTree = "<group>"; };
 		24ABCAFE1EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCollectionviewOnTableviewCell.xib; sourceTree = "<group>"; };
@@ -388,7 +407,6 @@
 		24ABCB701EBC7F0F00C924B1 /* MainController */ = {
 			isa = PBXGroup;
 			children = (
-				24ABCB0C1EBC7CA400C924B1 /* LYFindViewController.h */,
 				24ABCB0D1EBC7CA400C924B1 /* LYFindViewController.m */,
 			);
 			name = MainController;
@@ -463,7 +481,9 @@
 			children = (
 				24ABCAF91EBC7CA400C924B1 /* LYcloudTableViewController.h */,
 				24ABCAFA1EBC7CA400C924B1 /* LYcloudTableViewController.m */,
-				24ABCAFB1EBC7CA400C924B1 /* LYcloudTableViewController.xib */,
+				246C76211EC74B61009D5A6F /* LYTclouddetailableViewController.h */,
+				246C76221EC74B62009D5A6F /* LYTclouddetailableViewController.m */,
+				246C76231EC74B62009D5A6F /* LYTclouddetailableViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -471,6 +491,16 @@
 		24ABCB7A1EBC7FBB00C924B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				249228211EBEAFD900873488 /* LYCloudtableviewcell.h */,
+				249228221EBEAFD900873488 /* LYCloudtableviewcell.m */,
+				249228231EBEAFD900873488 /* LYCloudtableviewcell.xib */,
+				24ABCB0C1EBC7CA400C924B1 /* LYFindViewController.h */,
+				246C76261EC74C08009D5A6F /* LYCloudDetailTableViewCell.h */,
+				246C76271EC74C08009D5A6F /* LYCloudDetailTableViewCell.m */,
+				246C76281EC74C08009D5A6F /* LYCloudDetailTableViewCell.xib */,
+				241BD42E1EC843F3006B4ED3 /* LYHeadCloudDetailView.h */,
+				241BD42F1EC843F3006B4ED3 /* LYHeadCloudDetailView.m */,
+				241BD4311EC8441A006B4ED3 /* LYHeadCloudDetailView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -670,6 +700,8 @@
 				24ABCAFF1EBC7CA400C924B1 /* LYCollectionCell.h */,
 				24ABCB001EBC7CA400C924B1 /* LYCollectionCell.m */,
 				24ABCB011EBC7CA400C924B1 /* LYCollectionCell.xib */,
+				241BD4331EC84AA8006B4ED3 /* LYHorizontalButton.h */,
+				241BD4341EC84AA8006B4ED3 /* LYHorizontalButton.m */,
 			);
 			name = Public;
 			sourceTree = "<group>";
@@ -708,7 +740,6 @@
 				24ABCB651EBC7D8500C924B1 /* Expand（扩展） */,
 				24ABCB6B1EBC7E1500C924B1 /* Resource（资源） */,
 				24ABCB661EBC7D9F00C924B1 /* FailedAndReflective */,
-				24189CD01EBD92090044E9E3 /* Images.xcassets */,
 				24E2A67C1E9777BC00266338 /* Supporting Files */,
 			);
 			path = "音伴尔家听宝";
@@ -874,17 +905,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				24ABCB421EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.xib in Resources */,
+				241BD4321EC8441A006B4ED3 /* LYHeadCloudDetailView.xib in Resources */,
 				24ABCB4B1EBC7CA400C924B1 /* LYDownView.xib in Resources */,
+				246C76251EC74B62009D5A6F /* LYTclouddetailableViewController.xib in Resources */,
 				24ABCB4D1EBC7CA400C924B1 /* LYheadTableView.xib in Resources */,
 				24ABCB381EBC7CA400C924B1 /* Base.lproj in Resources */,
+				249228251EBEAFD900873488 /* LYCloudtableviewcell.xib in Resources */,
 				24ABCB461EBC7CA400C924B1 /* LYcourseview.xib in Resources */,
 				24ABCB4A1EBC7CA400C924B1 /* LYdownCellView.xib in Resources */,
 				24ABCB5F1EBC7CA400C924B1 /* LYtabelview.xib in Resources */,
 				24ABCB481EBC7CA400C924B1 /* LYdevise.xib in Resources */,
 				24ABCB371EBC7CA400C924B1 /* Assets.xcassets in Resources */,
-				24ABCB401EBC7CA400C924B1 /* LYcloudTableViewController.xib in Resources */,
+				246C762A1EC74C08009D5A6F /* LYCloudDetailTableViewCell.xib in Resources */,
 				24ABCB391EBC7CA400C924B1 /* Info.plist in Resources */,
-				24189CD11EBD92090044E9E3 /* Images.xcassets in Resources */,
 				24ABCB621EBC7CA400C924B1 /* LYView.xib in Resources */,
 				24ABCB3C1EBC7CA400C924B1 /* LYcellview.xib in Resources */,
 				24ABCB551EBC7CA400C924B1 /* LYmusicCell.xib in Resources */,
@@ -966,11 +999,13 @@
 				24ABCB541EBC7CA400C924B1 /* LYmusicCell.m in Sources */,
 				24ABCB361EBC7CA400C924B1 /* AppDelegate.m in Sources */,
 				24ABCB571EBC7CA400C924B1 /* LYnavigationController.m in Sources */,
+				246C76291EC74C08009D5A6F /* LYCloudDetailTableViewCell.m in Sources */,
 				24ABCB451EBC7CA400C924B1 /* LYcourseview.m in Sources */,
 				24ABCB5C1EBC7CA400C924B1 /* LYTabBarController.m in Sources */,
 				24ABCB5A1EBC7CA400C924B1 /* LYshebeiViewController.m in Sources */,
 				24ABCB5B1EBC7CA400C924B1 /* LYtabBar.m in Sources */,
 				24ABCB4C1EBC7CA400C924B1 /* LYFindViewController.m in Sources */,
+				241BD4351EC84AA8006B4ED3 /* LYHorizontalButton.m in Sources */,
 				24ABCB5E1EBC7CA400C924B1 /* LYtabelview.m in Sources */,
 				24ABCB631EBC7CA400C924B1 /* main.m in Sources */,
 				24ABCB431EBC7CA400C924B1 /* LYCollectionCell.m in Sources */,
@@ -978,6 +1013,7 @@
 				24ABCB3D1EBC7CA400C924B1 /* LYchatViewController.m in Sources */,
 				24ABCB4F1EBC7CA400C924B1 /* LYmineView.m in Sources */,
 				24ABCB601EBC7CA400C924B1 /* LYTableViewController.m in Sources */,
+				249228241EBEAFD900873488 /* LYCloudtableviewcell.m in Sources */,
 				24ABCB3F1EBC7CA400C924B1 /* LYcloudTableViewController.m in Sources */,
 				24ABCB3A1EBC7CA400C924B1 /* LYCatListModel.m in Sources */,
 				24ABCB561EBC7CA400C924B1 /* LYmusicViewController.m in Sources */,
@@ -990,8 +1026,10 @@
 				24ABCB611EBC7CA400C924B1 /* LYVerticalButton.m in Sources */,
 				24ABCB581EBC7CA400C924B1 /* LYPageView.m in Sources */,
 				24ABCB411EBC7CA400C924B1 /* LYCollectionviewOnTableviewCell.m in Sources */,
+				241BD4301EC843F3006B4ED3 /* LYHeadCloudDetailView.m in Sources */,
 				24ABCB3E1EBC7CA400C924B1 /* LYcloudsclassview.m in Sources */,
 				24ABCB521EBC7CA400C924B1 /* LYMusicBtnVCSingleton.m in Sources */,
+				246C76241EC74B62009D5A6F /* LYTclouddetailableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

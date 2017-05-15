@@ -28,7 +28,7 @@
     
     //  统一设置push控制器的返回按钮的样式
 //    self.navigationBar.barStyle = UIStatusBarStyleDefault;
-    viewController.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
+    viewController.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"   " style:UIBarButtonItemStyleDone target:nil action:nil];
     [self.navigationBar setTintColor:[UIColor  blackColor]];
     
     
